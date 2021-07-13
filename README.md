@@ -9,12 +9,12 @@ Project is created with:
 * Junit 5
 
 ## Build and deploy
-# Docker compose
+### Docker compose
 ```
 docker-compose build
 docker-compose up
 ```
-# Maven
+### Maven
 ```
 mvn spring-boot:run
 ```
