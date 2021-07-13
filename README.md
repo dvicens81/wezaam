@@ -34,4 +34,4 @@ mvn test
 * The database used is H2 Embedded mode MYSQL.
 * It is important to know that every time that the application is started, the database is loaded with some users and some payment methods.
 * I add TODOS tags to take account the technical debt that are missig now.
-* The part "losing some outgoing events about withdrawal..." is explained on EventsService.class
+* The part "losing some outgoing events about withdrawal..." is explained on WithDrawalEventService.java
