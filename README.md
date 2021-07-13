@@ -30,8 +30,8 @@ mvn test
 * Create withdrawal by user (POST)
 
 ### Solution
-* I create a new project, because I consider that the actual solution needs a deeply refactor and it is better to start from scratch to refactor.
+* I created a new project, because I consider that the actual solution needs a deeply refactor and it is better to start from scratch to refactor.
 * The database used is H2 Embedded mode MYSQL.
-* It is important to know that every time that the application is started, the database is empty.
+* It is important to know that every time that the application is started, the database is loaded with some users and some payment methods.
 * I add TODOS tags to take account the technical debt that are missig now.
 * The part "losing some outgoing events about withdrawal..." is explained on EventsService.class
